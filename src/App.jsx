@@ -15,7 +15,7 @@ import Start from './components/Start';
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full min-h-screen bg-[#F1F1F1]'>
+    <div className='w-full min-h-screen bg-[#F1F1F1] overflow-hidden'>
       <Navbar />
       <LandingPage />
       <Marquee />
